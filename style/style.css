@@ -1,0 +1,139 @@
+/* html, body {
+    height: 100%;
+    overflow-y: hidden;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+div.efeito {
+    position: fixed;
+    width: 717px;
+    height: 691px;
+    left: -117px;
+    top: -132px;
+    background-color: #296f3360;
+    filter: blur(200px);
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header > img#logo {
+    position: absolute;
+    box-sizing: border-box;
+    width: 190px;
+    left: 125px;
+    top: 55px;
+}
+
+header > img#logo-name {
+    position: absolute;
+    box-sizing: border-box;
+    width: 202px;
+    left: 117px;
+    top: 200px
+}
+
+nav > a {
+    position: relative;
+    left: 542px;
+    top: 40px;
+    padding: 20px;
+    height: 6px;
+    
+
+    font-family: Verdana, Tahoma, sans-serif;
+    text-size-adjust: 50px;
+    font-style: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 15.5%;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 140px;
+    top: 250px;
+    color: white;
+    width: 552px;
+    height: 300px;
+    font-size: 4.5em;
+}
+
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    width: 100px; 
+    height: 35px;
+    left: 140px;
+    top: 550px;
+    color: white;
+    background: linear-gradient(101.61deg, #0f97affd -14.72%, #32ff46b2 66.97%, #db80ff);
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+
+div.card {
+    position: absolute;
+    background-color: #005919;
+    width: 300px;
+    height: 400px;
+    left: 850px;
+    top: 150px;
+    z-index: 1;
+    background: linear-gradient(191.32deg, #02510A -118.59%, #296F34 15.64%, #90FC3B 56.18%, #005919 81.36%, #116A2A 109.76%, #481CBB 131.68%, #005919 131.68%);
+    border-radius: 41.5692px;
+}
+
+div.segund-card {
+    position: absolute;
+    background-color: #22b939;
+    width: 150px;
+    height: 250px;
+    left: 823px;
+    top: 170px;
+    transform: rotate(-12deg);
+    border-radius: 40px 40px 0px 0px;
+}
+
+div.terc-card {
+        position: absolute;
+        background-color: #2db140;
+        width: 200px;
+        height: 225px;
+        left: 810px;
+        top: 190px;
+        opacity: 0.7;
+        transform: rotate(-30deg);
+        border-radius: 40px;
+    }
+
+img.imgCard {
+    position: absolute;
+    z-index: 2;
+    width: auto;
+    height: 300px;
+    left: 685px;
+    top: 200px;
+}
